@@ -1,4 +1,4 @@
-# To install your tools on a Window VM
+# To install your tools on a new Windows VM
 1. Install [Chocolatey](https://chocolatey.org/)
 1. Run this
 ```
