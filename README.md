@@ -9,3 +9,4 @@ choco install googlechrome firefox visualstudiocode sql-server-management-studio
 ```
 sudo ./setup-env.sh
 ```
+1. Enter SSH Key password when requested

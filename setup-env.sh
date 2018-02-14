@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 echo "Installing software..."
 sudo apt-get install -y git vim xsel gcc make perl
 echo "Installing software...finished"
@@ -17,7 +18,7 @@ rm ~/.ssh/id_rsa.pub
 echo "remove existing ssh key if exists...finished"
 
 echo "generate ssh key..."
-ssh-keygen -f ~/.ssh/id_rsa -t rsa -N ''
+ssh-keygen -f ~/.ssh/id_rsa -t rsa
 cat ~/.ssh/id_rsa.pub  | xsel -ib
 echo "generate ssh key...finished"
 
