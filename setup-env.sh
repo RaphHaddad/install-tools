@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo "Installing software..."
-sudo apt-get install -y git vim xsel
+sudo apt-get install -y git vim xsel gcc make perl
 echo "Installing software...finished"
 
 setNumberVimFlag="set number"
@@ -21,4 +21,4 @@ ssh-keygen -f ~/.ssh/id_rsa -t rsa -N ''
 cat ~/.ssh/id_rsa.pub  | xsel -ib
 echo "generate ssh key...finished"
 
-echo "public key is on clipboard"
+echo "public key is on clipboard."
