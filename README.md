@@ -10,5 +10,6 @@ choco install googlechrome firefox visualstudiocode sql-server-management-studio
 ```
 sudo ./setup-env.sh
 sudo ./install-dotnet.sh
+sudo ./install-powershell.sh
 ```
 2. Enter SSH Key password when requested
