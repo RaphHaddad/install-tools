@@ -2,7 +2,7 @@
 
 echo "Installing software..."
 sudo apt-get update
-sudo apt-get install -y git vim xsel gcc make perl python curl
+sudo apt-get install -y git vim xsel gcc make perl python curl texmaker
 echo "Installing software...finished"
 
 setNumberVimFlag="set number"
