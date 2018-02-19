@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 echo "Installing software..."
-sudo apt-get install -y git vim xsel gcc make perl
+sudo apt-get update
+sudo apt-get install -y git vim xsel gcc make perl python curl
 echo "Installing software...finished"
 
 setNumberVimFlag="set number"
