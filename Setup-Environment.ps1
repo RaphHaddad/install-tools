@@ -23,6 +23,12 @@ function Install-VsCodeExtentions() {
     }
 }
 
+function Install-PoshGit() {
+    Install-Module posh-git -Force -AllowClobber
+}
+
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
 Install-SoftwareUsingChoco
+Install-PoshGit
 RefreshEnv
 Install-VsCodeExtentions
