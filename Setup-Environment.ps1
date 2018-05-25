@@ -34,7 +34,8 @@ function Set-GitConfigs() {
 
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
 Install-SoftwareUsingChoco
-Install-PoshGit
+
 RefreshEnv
+Install-PoshGit
 Install-VsCodeExtentions
 Set-GitConfigs
