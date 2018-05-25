@@ -1,4 +1,3 @@
-
 function Install-SoftwareUsingChoco() {
     Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
@@ -27,8 +26,15 @@ function Install-PoshGit() {
     Install-Module posh-git -Force -AllowClobber
 }
 
+function Set-GitConfigs() {
+    git config --global core.editor 'code --wait'
+    git config --global diff.tool defaultdiff-tool
+    git config --global difftool.defaultdiff-tool.cmd 'code --wait --diff $LOCAL $REMOTE'
+}
+
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
 Install-SoftwareUsingChoco
 Install-PoshGit
 RefreshEnv
 Install-VsCodeExtentions
+Set-GitConfigs
