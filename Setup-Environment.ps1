@@ -55,6 +55,7 @@ function Set-GitConfigs() {
     git config --global core.editor 'code --wait'
     git config --global diff.tool defaultdiff-tool
     git config --global difftool.defaultdiff-tool.cmd 'code --wait --diff $LOCAL $REMOTE'
+    git config --global core.autocrlf true
 }
 
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
