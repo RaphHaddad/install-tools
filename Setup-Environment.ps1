@@ -47,6 +47,10 @@ function Install-VsCodeExtentions() {
     }
 }
 
+function Install-WindowsFeatures() {
+    Enable-WindowsOptionalFeature -Online -NoRestart -FeatureName Microsoft-Windows-Subsystem-Linux
+}
+
 function Install-PoshGit() {
     Install-Module posh-git -Force -AllowClobber
 }
@@ -65,3 +69,4 @@ RefreshEnv
 Install-PoshGit
 Install-VsCodeExtentions
 Set-GitConfigs
+Install-WindowsFeatures
