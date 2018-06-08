@@ -71,4 +71,4 @@ Install-PoshGit
 Install-VsCodeExtentions
 Set-GitConfigs
 Install-WindowsFeatures
-Restart-Computer -Confirm -Force
+Restart-Computer -Force
