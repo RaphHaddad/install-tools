@@ -49,6 +49,7 @@ function Install-VsCodeExtentions() {
 
 function Install-WindowsFeatures() {
     Enable-WindowsOptionalFeature -Online -NoRestart -FeatureName Microsoft-Windows-Subsystem-Linux
+    Enable-WindowsOptionalFeature -Online -NoRestart -FeatureName Microsoft-Hyper-V-All
 }
 
 function Install-PoshGit() {
@@ -70,3 +71,4 @@ Install-PoshGit
 Install-VsCodeExtentions
 Set-GitConfigs
 Install-WindowsFeatures
+Restart-Computer -Confirm -Force
