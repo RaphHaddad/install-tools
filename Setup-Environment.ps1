@@ -21,7 +21,6 @@ function Install-SoftwareUsingChoco() {
                   terraform `
                   virtualbox `
                   python `
-                  f.lux `
                   keybase `
                   treesizefree `
                   everything `
