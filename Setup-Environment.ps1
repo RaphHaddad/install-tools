@@ -3,8 +3,7 @@ function Install-SoftwareUsingChoco() {
 
     choco install googlechrome `
                   firefox `
-                  visualstudiocode `
-                  sql-server-management-studio `
+                  vscode `
                   resharper-platform `
                   linqpad `
                   git-credential-manager-for-windows `

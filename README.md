@@ -4,6 +4,11 @@
 ```
 .\Setup-Environment.ps1
 ```
+3. Install these things manuall
+
+- [ ] Office365
+- [ ] Teams
+- [ ] Visual Studio
 
 # To install your tools on a Ubuntu 17.10 VM
 1. Run this
