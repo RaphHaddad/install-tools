@@ -4,7 +4,7 @@
 ```
 .\Setup-Environment.ps1
 ```
-3. Install these things manuall
+3. Install these things manually
 
 - [ ] Office365
 - [ ] Teams
