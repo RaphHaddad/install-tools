@@ -20,6 +20,7 @@ function Install-SoftwareUsingChoco() {
                   terraform `
                   virtualbox `
                   python `
+                  python2 `
                   keybase `
                   treesizefree `
                   everything `
