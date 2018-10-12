@@ -39,7 +39,8 @@ function Install-VsCodeExtentions() {
                   "ms-vscode.powershell", `
                   "mauve.terraform", `
                   "ms-vscode.azurecli", `
-                  "ms-vsts.team"
+                  "ms-vsts.team", `
+                  "ms-python.python"
 
     foreach ($extention in $extentions) {
         code --install-extension $extention
