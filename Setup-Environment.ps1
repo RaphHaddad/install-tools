@@ -7,7 +7,6 @@ function Install-SoftwareUsingChoco() {
                   resharper-platform `
                   linqpad `
                   git-credential-manager-for-windows `
-                  gitextensions `
                   cmder `
                   nodejs.install `
                   greenshot `
