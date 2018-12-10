@@ -25,6 +25,7 @@ function Install-SoftwareUsingChoco() {
                   treesizefree `
                   everything `
                   slack `
+                  dotnetcore-sdk `
                   -y
 }
 
