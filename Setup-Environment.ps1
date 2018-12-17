@@ -25,6 +25,7 @@ function Install-SoftwareUsingChoco() {
                   everything `
                   slack `
                   dotnetcore-sdk `
+                  microsoft-teams.install `
                   -y
 }
 
@@ -65,9 +66,9 @@ function Set-GitConfigs() {
 
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
 Install-SoftwareUsingChoco
-
 RefreshEnv
 Install-PoshGit
+RefreshEnv
 Install-VsCodeExtentions
 Set-GitConfigs
 Install-WindowsFeatures
