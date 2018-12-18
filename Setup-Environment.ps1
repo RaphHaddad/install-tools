@@ -27,6 +27,8 @@ function Install-SoftwareUsingChoco() {
                   dotnetcore-sdk `
                   microsoft-teams.install `
                   megasync `
+                  sql-server-management-studio `
+                  sql-server-express `
                   -y
 }
 
