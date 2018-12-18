@@ -26,7 +26,6 @@ function Install-SoftwareUsingChoco() {
                   slack `
                   dotnetcore-sdk `
                   microsoft-teams.install `
-                  googledrive `
                   megasync `
                   -y
 }
