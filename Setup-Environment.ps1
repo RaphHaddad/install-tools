@@ -29,6 +29,7 @@ function Install-SoftwareUsingChoco() {
                   megasync `
                   sql-server-management-studio `
                   sql-server-express `
+                  postman `
                   -y
 }
 
