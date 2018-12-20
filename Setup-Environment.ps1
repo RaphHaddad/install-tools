@@ -30,6 +30,7 @@ function Install-SoftwareUsingChoco() {
                   sql-server-management-studio `
                   sql-server-express `
                   postman `
+                  fiddler `
                   -y
 }
 
