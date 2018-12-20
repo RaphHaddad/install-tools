@@ -14,7 +14,7 @@ function Install-SoftwareUsingChoco() {
                   screentogif `
                   kdiff3 `
                   docker `
-                  azurestorageexplorer `
+                  microsoftazurestorageexplorer `
                   rdcman `
                   terraform `
                   virtualbox `
