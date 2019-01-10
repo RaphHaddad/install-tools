@@ -31,6 +31,7 @@ function Install-SoftwareUsingChoco() {
                   sql-server-express `
                   postman `
                   fiddler `
+                  putty `
                   -y
 }
 
