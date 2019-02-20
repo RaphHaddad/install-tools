@@ -32,6 +32,7 @@ function Install-SoftwareUsingChoco() {
                   postman `
                   fiddler `
                   putty `
+		  azure-cli `
                   -y
 }
 
