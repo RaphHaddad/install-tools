@@ -19,7 +19,6 @@ function Install-SoftwareUsingChoco() {
                   terraform `
                   virtualbox `
                   python `
-                  python2 `
                   keybase `
                   treesizefree `
                   everything `
@@ -32,7 +31,7 @@ function Install-SoftwareUsingChoco() {
                   postman `
                   fiddler `
                   putty `
-		  azure-cli `
+                  azure-cli `
                   -y
 }
 
