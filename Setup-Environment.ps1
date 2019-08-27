@@ -32,6 +32,7 @@ function Install-SoftwareUsingChoco() {
                   fiddler `
                   putty `
                   azure-cli `
+                  azure-data-studio `
                   -y
 }
 
