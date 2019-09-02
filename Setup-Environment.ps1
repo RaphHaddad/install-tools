@@ -48,7 +48,9 @@ function Install-VsCodeExtentions() {
                   "mauve.terraform", `
                   "ms-vscode.azurecli", `
                   "ms-vsts.team", `
-                  "ms-python.python"
+                  "ms-python.python", `
+                  "streetsidesoftware.code-spell-checker", `
+                  "ionide.ionide-fsharp"
 
     foreach ($extention in $extentions) {
         code --install-extension $extention
