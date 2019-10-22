@@ -15,7 +15,8 @@ brew cask install firefox \
           google-chrome \
           slack \
           dotnet-sdk \
-          visual-studio-code
+          visual-studio-code \
+          lastpass
 
 echo finished brew installs
 
