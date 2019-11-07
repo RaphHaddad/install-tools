@@ -9,7 +9,8 @@ brew cask install adoptopenjdk
 
 brew install git \
              git-credential-manager \
-             terraform
+             terraform \
+             azure-cli
 
 brew cask install firefox \
           google-chrome \
