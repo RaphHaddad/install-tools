@@ -14,9 +14,10 @@ Install these things manually
 
 ## macOS
 
-```cmd
-./install-mac-tools.sh
-```
+1. [Homebrew](https://brew.sh)
+1. [Visual Studio Code](https://code.visualstudio.com)
+1. [OneDrive](https://www.microsoft.com/en-au/microsoft-365/onedrive/online-cloud-storage)
+1. [Office365](https://www.office.com/?auth=2)
 
 ## Ubuntu
 
